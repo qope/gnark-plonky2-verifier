@@ -1,8 +1,8 @@
 package variables
 
 import (
-	gl "github.com/succinctlabs/gnark-plonky2-verifier/goldilocks"
-	"github.com/succinctlabs/gnark-plonky2-verifier/poseidon"
+	gl "github.com/qope/gnark-plonky2-verifier/goldilocks"
+	"github.com/qope/gnark-plonky2-verifier/poseidon"
 )
 
 type PolynomialCoeffs struct {

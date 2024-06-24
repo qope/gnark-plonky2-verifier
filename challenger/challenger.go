@@ -4,11 +4,11 @@ import (
 	"fmt"
 
 	"github.com/consensys/gnark/frontend"
-	"github.com/succinctlabs/gnark-plonky2-verifier/fri"
-	gl "github.com/succinctlabs/gnark-plonky2-verifier/goldilocks"
-	"github.com/succinctlabs/gnark-plonky2-verifier/poseidon"
-	"github.com/succinctlabs/gnark-plonky2-verifier/types"
-	"github.com/succinctlabs/gnark-plonky2-verifier/variables"
+	"github.com/qope/gnark-plonky2-verifier/fri"
+	gl "github.com/qope/gnark-plonky2-verifier/goldilocks"
+	"github.com/qope/gnark-plonky2-verifier/poseidon"
+	"github.com/qope/gnark-plonky2-verifier/types"
+	"github.com/qope/gnark-plonky2-verifier/variables"
 )
 
 type Chip struct {
